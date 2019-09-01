@@ -1,0 +1,5 @@
+{
+  "app" : "services",
+  "app-type" : "backend",
+  "env" : "sandbox"
+}
