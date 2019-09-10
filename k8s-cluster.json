@@ -6,7 +6,7 @@
       "name" : "jenkins",
       "app-type" : "devops"
     }
-  ]
+  ],
   "env" : "sandbox",
   "region" : "us-east",
   "git-org" : "",
