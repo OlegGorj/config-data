@@ -1,15 +1,24 @@
 {
-  "app" : "jx-sandbox",
-  "app-type" : "jenkins",
+  "name" : "jx-sandbox",
+  "k8s-name" : "k8s-sandbox",
+  "apps": [
+    {
+      "name" : "jenkins",
+      "app-type" : "devops"
+    }
+  ]
   "env" : "sandbox",
-  "k8s-cluster-name" : "k8s-sandbox",
   "region" : "us-east",
   "git-org" : "",
   "kubectl-ver" : "v1.13.0",
   "helm-ver": "v2.1.3",
   "docker-ver" : "1.12.6",
-  "ibmcloud-api-endpoint" : "https://api.us-east.bluemix.net",
-  "slack-url" : "https://ibm-4etp.slack.com/services/hooks/jenkins-ci",
-  "slack-devops-channel" : "#devops-channel"
-
+  "cloud-provider":{
+    "name": "ibmcloud",
+    "api-endpoint" : "https://api.us-east.bluemix.net",
+  },
+  "ops":{
+    "slack-url" : "https://ibm-4etp.slack.com/services/hooks/jenkins-ci",
+    "slack-devops-channel" : "#devops-channel"
+  }
 }
