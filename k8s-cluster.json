@@ -1,7 +1,7 @@
 {
   "app" : "jx-sandbox",
   "app-type" : "jenkins",
-  "env" : "sandbox",
+  "env" : "dev",
   "k8s-cluster-name" : "k8s-dev",
   "region" : "us-east",
   "git-org" : "",
