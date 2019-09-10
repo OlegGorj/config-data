@@ -2,7 +2,7 @@
   "app" : "jx-sandbox",
   "app-type" : "jenkins",
   "env" : "sandbox",
-  "k8s-cluster-name" : "k8s-sandbox",
+  "k8s-cluster-name" : "k8s-dev",
   "region" : "us-east",
   "git-org" : "",
   "kubectl-ver" : "v1.13.0",
