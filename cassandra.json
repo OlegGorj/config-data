@@ -1,12 +1,12 @@
 {
   "app" : "cassandra",
   "app-type" : "backend",
-  "env" : "sandbox",
-  "cassandra_host" : "172.30.182.50",
-  "cassandra_service" : "cassandra.cassandra-dc1",
+  "env" : "prod",
+
+  "cassandra_service" : "cassandra.cassandra",
   "cassandra_namespace_staging" : "staging",
   "cassandra_username" : "cassandra",
-  "cassandra_password" : "cassandra",
+
   "cassandra_port" : "9042",
   "number_connection" : "50",
   "session_timeout" : "120"
