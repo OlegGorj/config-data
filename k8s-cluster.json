@@ -1,5 +1,5 @@
 {
-  "app" : "jx-sandbox",
+  "app" : "jx",
   "app-type" : "jenkins",
   "env" : "prod",
   "k8s-cluster-name" : "k8s-cluster",
