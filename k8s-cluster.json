@@ -1,15 +1,15 @@
 {
   "app" : "jx-sandbox",
   "app-type" : "jenkins",
-  "env" : "sandbox",
-  "k8s-cluster-name" : "k8s-husky-sandbox",
+  "env" : "prod",
+  "k8s-cluster-name" : "k8s-cluster",
   "region" : "us-east",
-  "git-org" : "AdvancedAnalyticsCanada",
+  "git-org" : "",
   "kubectl-ver" : "v1.13.0",
   "helm-ver": "v2.1.3",
   "docker-ver" : "1.12.6",
   "ibmcloud-api-endpoint" : "https://api.us-east.bluemix.net",
   "slack-url" : "https://ibm-4etp.slack.com/services/hooks/jenkins-ci",
-  "slack-devops-channel" : "#husky-devops-channel"
+  "slack-devops-channel" : "#devops-channel"
 
 }
