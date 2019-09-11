@@ -15,7 +15,7 @@
   "docker-ver" : "1.12.6",
   "cloud-provider":{
     "name": "ibmcloud",
-    "api-endpoint" : "https://api.us-east.bluemix.net",
+    "api-endpoint" : "https://api.us-east.bluemix.net"
   },
   "ops":{
     "slack-url" : "https://ibm-4etp.slack.com/services/hooks/jenkins-ci",
