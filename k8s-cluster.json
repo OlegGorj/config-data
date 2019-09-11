@@ -5,6 +5,14 @@
     {
       "name" : "jenkins",
       "app-type" : "devops"
+    },
+    {
+      "name" : "grafana",
+      "app-type" : "devops"
+    },
+    {
+      "name" : "cassandra",
+      "app-type" : "storage"
     }
   ],
   "env" : "sandbox",
