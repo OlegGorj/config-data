@@ -2,11 +2,13 @@
   {
     "namespace": "default",
     "configmap": "configmap-test",
-    "config": "cassandra.json"
+    "config": "cassandra.json",
+    "key": "/"
   },
   {
     "namespace": "default",
     "configmap": "configmap-k8s-cluster",
-    "config": "k8s-cluster.json"
+    "config": "k8s-cluster.json",
+    "key": "/"
   }
 ]
