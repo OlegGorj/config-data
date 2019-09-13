@@ -3,7 +3,7 @@
     "namespace": "default",
     "configmap": "configmap-test",
     "config": "cassandra.json",
-    [
+    "keys": [
       {
           "configmap-key": "",
           "config-service-key" : "/"
@@ -14,7 +14,7 @@
     "namespace": "default",
     "configmap": "configmap-k8s-cluster",
     "config": "k8s-cluster.json",
-    [
+    "keys": [
       {
           "configmap-key": "",
           "config-service-key" : "/"
