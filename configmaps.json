@@ -1,6 +1,6 @@
-{
+[
   
-	"configmap-test": {
+	{
 		"namespace": "default",
 		"configmap": "configmap-test",
 		"config": "cassandra.json",
@@ -15,7 +15,7 @@
 		]
 	},
   
-	"configmap-k8s-cluster": {
+	{
 		"namespace": "default",
 		"configmap": "configmap-k8s-cluster",
 		"config": "k8s-cluster.json",
@@ -24,5 +24,5 @@
 			"config-service-key": "name"
 		}]
 	}
-  
-}
+
+]
