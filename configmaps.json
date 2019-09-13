@@ -5,12 +5,12 @@
 		"configmap": "configmap-test",
 		"config": "cassandra.json",
 		"keys": [{
-				"configmap-key": "app",
-				"config-service-key": "app"
+				"configmap_key": "app",
+				"config_service_key": "app"
 			},
 			{
-				"configmap-key": "services",
-				"config-service-key": "cassandra_services"
+				"configmap_key": "services",
+				"config_service_key": "cassandra_services"
 			}
 		]
 	},
@@ -20,8 +20,8 @@
 		"configmap": "configmap-k8s-cluster",
 		"config": "k8s-cluster.json",
 		"keys": [{
-			"configmap-key": "app",
-			"config-service-key": "name"
+			"configmap_key": "app",
+			"config_service_key": "name"
 		}]
 	}
 
