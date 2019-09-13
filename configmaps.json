@@ -1,28 +1,28 @@
-[
-  {
-    "namespace": "default",
-    "configmap": "configmap-test",
-    "config": "cassandra.json",
-    "keys": [
-      {
-          "configmap-key": "app",
-          "config-service-key" : "app"
-      },
-      {
-          "configmap-key": "services",
-          "config-service-key" : "cassandra_services"
-      }
-    ]
-  },
-  {
-    "namespace": "default",
-    "configmap": "configmap-k8s-cluster",
-    "config": "k8s-cluster.json",
-    "keys": [
-      {
-          "configmap-key": "app",
-          "config-service-key" : "name"
-      }
-    ]
-  }
-]
+{
+  
+	"configmap-test": {
+		"namespace": "default",
+		"configmap": "configmap-test",
+		"config": "cassandra.json",
+		"keys": [{
+				"configmap-key": "app",
+				"config-service-key": "app"
+			},
+			{
+				"configmap-key": "services",
+				"config-service-key": "cassandra_services"
+			}
+		]
+	},
+  
+	"configmap-k8s-cluster": {
+		"namespace": "default",
+		"configmap": "configmap-k8s-cluster",
+		"config": "k8s-cluster.json",
+		"keys": [{
+			"configmap-key": "app",
+			"config-service-key": "name"
+		}]
+	}
+  
+}
