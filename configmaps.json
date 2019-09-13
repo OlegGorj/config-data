@@ -1,0 +1,12 @@
+[
+  {
+    "namespace": "default",
+    "configmap": "configmap-test",
+    "config": "cassandra.json"
+  },
+  {
+    "namespace": "default",
+    "configmap": "configmap-k8s-cluster",
+    "config": "k8s-cluster.json"
+  }
+]
