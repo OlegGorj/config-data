@@ -2,7 +2,7 @@
   
 	{
 		"namespace": "default",
-		"configmap": "configmap-test",
+		"configmap": "cassandra-test",
 		"config": "cassandra.json",
 		"keys": [{
 				"configmap_key": "app",
@@ -17,7 +17,7 @@
   
 	{
 		"namespace": "default",
-		"configmap": "configmap-k8s-cluster",
+		"configmap": "k8s-cluster",
 		"config": "k8s-cluster.json",
 		"keys": [{
 			"configmap_key": "app",
