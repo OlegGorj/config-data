@@ -1,7 +1,7 @@
 [
   
 	{
-		"namespace": "cassandra",
+		"namespace": "default",
 		"configmap": "cassandra-test",
 		"config": "cassandra.json",
 		"keys": [{
