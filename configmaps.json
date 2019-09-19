@@ -13,7 +13,6 @@
 			}
 		]
 	},
-  
 	{
 		"namespace": "default",
 		"configmap": "k8s-cluster",
