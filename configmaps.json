@@ -28,9 +28,11 @@
 			{
 				"configmap_key": "applications",
 				"config_service_key": "apps"
+			},
+			{
+				"configmap_key": "cloud-api",
+				"config_service_key": "cloud-provider.api-endpoint"
 			}
 		]
-	}
-
-	
+	}	
 ]
