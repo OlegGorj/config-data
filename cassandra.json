@@ -1,4 +1,5 @@
 {
+  
   "app" : "cassandra",
   "app-type" : "backend",
   "env" : "sandbox",
@@ -10,4 +11,5 @@
   "session_timeout" : "120",
   "cassandra_services": ["cassandra.dc1" , "cassandra.dc2"],
   "namespaces" : [ "staging", "analytics" ]
+  
 }
