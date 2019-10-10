@@ -1,4 +1,5 @@
 [
+	
 	{
 		"namespace": "default",
 		"configmap": "cassandra-test",
@@ -14,6 +15,7 @@
 			}
 		]
 	},
+	
 	{
 		"namespace": "default",
 		"configmap": "k8s-cluster",
