@@ -10,6 +10,8 @@
   "number_connections" : "50",
   "session_timeout" : "120",
   "cassandra_services": ["cassandra.dc1" , "cassandra.dc2"],
-  "namespaces" : [ "staging", "analytics" ]
+  "namespaces" : [ "test", "staging", "analytics" ]
+
+  
   
 }
